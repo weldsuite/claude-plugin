@@ -1,0 +1,17 @@
+{
+  "name": "weldsuite",
+  "owner": {
+    "name": "WeldSuite",
+    "email": "support@weldsuite.org"
+  },
+  "metadata": {
+    "description": "The official WeldSuite plugin for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "weldsuite",
+      "source": "./",
+      "description": "Work in your WeldSuite workspace from Claude: CRM, helpdesk, WeldFlow tasks, chat, calendar, files and knowledge pages."
+    }
+  ]
+}
