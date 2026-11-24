@@ -1,28 +1,28 @@
 {
   "name": "weldsuite",
   "displayName": "WeldSuite",
-  "version": "0.1.0",
-  "description": "Work in your WeldSuite workspace from Claude: look up and update CRM records, helpdesk conversations, WeldFlow projects and tasks, chat, calendar, files and knowledge pages, and take a WeldFlow task from the board to a finished change.",
+  "version": "0.2.0",
+  "description": "Work in your WeldSuite workspace from Claude: brief yourself on an account, review the sales pipeline, triage and answer helpdesk conversations, report on projects, turn notes into tasks, log activities and time, and take a WeldFlow task from the board to a finished change.",
   "author": {
     "name": "WeldSuite",
     "email": "support@weldsuite.org",
-    "url": "https://www.weldsuite.org"
+    "url": "https://www.weldsuite.eu"
   },
-  "homepage": "https://www.weldsuite.org",
+  "homepage": "https://www.weldsuite.eu",
   "repository": "https://github.com/weldsuite/claude-plugin",
   "license": "MIT",
   "keywords": [
     "weldsuite",
-    "weldflow",
     "crm",
+    "sales",
     "helpdesk",
     "project-management",
     "tasks",
     "mcp"
   ],
   "icon": "./assets/logo.svg",
-  "documentationUrl": "https://help.weldsuite.org/settings/mcp-server",
-  "supportUrl": "https://www.weldsuite.org/support",
-  "privacyPolicyUrl": "https://www.weldsuite.org/privacy",
-  "termsOfServiceUrl": "https://www.weldsuite.org/terms"
+  "documentationUrl": "https://github.com/weldsuite/claude-plugin#readme",
+  "supportUrl": "https://www.weldsuite.eu/support",
+  "privacyPolicyUrl": "https://www.weldsuite.eu/privacy",
+  "termsOfServiceUrl": "https://www.weldsuite.eu/terms"
 }
