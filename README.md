@@ -68,8 +68,8 @@ Then run `/mcp`, choose **weldsuite** and sign in with your WeldSuite account
 in the browser. There is no API key to create.
 
 The connector is `https://mcp.weldsuite.eu/mcp`. If your account belongs to
-more than one workspace, Claude shows you a list with each workspace's own
-address; add the one you want as a connector of its own.
+more than one workspace, signing in asks which workspace Claude may work in.
+To use another workspace, disconnect and connect again.
 
 In the Claude apps, the connector and every skill except the developer ones
 work; agents are a Claude Code feature.
@@ -81,6 +81,35 @@ work; agents are a Claude Code feature.
 - "Triage the unassigned support conversations."
 - "Turn these meeting notes into tasks in the Website Redesign project."
 - "I spent the morning on the Acme migration and two hours on support. Log it."
+
+## What the WeldSuite tools can do
+
+Besides reading your workspace, the WeldSuite MCP server that this plugin
+connects to has tools that change things, including some that reach other
+people or remove data. You only get the ones your workspace role allows.
+
+- **Send.** Reply to a customer in a WeldDesk conversation, post messages in
+  WeldChat channels and in project discussions, and launch, pause or resume
+  WeldReach outreach campaigns. A launched campaign sends real email to the
+  prospects in it, from your workspace's mailboxes. WeldMail emails are only
+  ever saved as drafts: no tool sends an email.
+- **Publish.** Publish or schedule posts to your connected social accounts,
+  and approve posts waiting for approval.
+- **Delete.** Delete records: contacts, customers, leads, opportunities,
+  activities, pipelines, pipeline stages and quotes; knowledge spaces, pages
+  and help articles; projects, tasks, comments, tags, sprints, milestones,
+  goals, whiteboards, and project documents, files, labels, members and
+  messages; chat channels, members, messages, drafts, bookmarks and
+  sections; calendars and events; files and folders; mail drafts and labels;
+  social posts, accounts, media and campaigns; outreach campaigns and their
+  enrollments, prospects, prospect lists and suppressions; webhooks,
+  workflows, domains and time entries. Deleting needs the delete permission
+  in your role.
+- **Change access.** Add, change or remove members of projects and chat
+  channels, and create, change or delete webhooks, which send workspace
+  events to an outside URL. No tool invites people to the workspace or
+  changes workspace roles.
+- **Pay.** None. There are no billing, payment or purchase tools.
 
 ## Permissions and data
 
